@@ -1,3 +1,3 @@
 # DMRMediator
 
-学习CTMediator
+学习 CTMediator

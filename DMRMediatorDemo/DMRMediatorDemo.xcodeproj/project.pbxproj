@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04AB80F4211AD23500C5A65E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AB80F3211AD23500C5A65E /* AppDelegate.m */; };
+		04AB80F7211AD23500C5A65E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AB80F6211AD23500C5A65E /* ViewController.m */; };
+		04AB80FA211AD23500C5A65E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AB80F8211AD23500C5A65E /* Main.storyboard */; };
+		04AB80FC211AD23B00C5A65E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AB80FB211AD23B00C5A65E /* Assets.xcassets */; };
+		04AB80FF211AD23B00C5A65E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AB80FD211AD23B00C5A65E /* LaunchScreen.storyboard */; };
+		04AB8102211AD23B00C5A65E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AB8101211AD23B00C5A65E /* main.m */; };
+		04AB810C211AD23B00C5A65E /* DMRMediatorDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AB810B211AD23B00C5A65E /* DMRMediatorDemoTests.m */; };
+		04AB8117211AD23B00C5A65E /* DMRMediatorDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AB8116211AD23B00C5A65E /* DMRMediatorDemoUITests.m */; };
+		04AB8127211AD29E00C5A65E /* DMRMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AB8126211AD29E00C5A65E /* DMRMediator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04AB8108211AD23B00C5A65E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04AB80E7211AD23500C5A65E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04AB80EE211AD23500C5A65E;
+			remoteInfo = DMRMediatorDemo;
+		};
+		04AB8113211AD23B00C5A65E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04AB80E7211AD23500C5A65E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04AB80EE211AD23500C5A65E;
+			remoteInfo = DMRMediatorDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04AB80EF211AD23500C5A65E /* DMRMediatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMRMediatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AB80F2211AD23500C5A65E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04AB80F3211AD23500C5A65E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04AB80F5211AD23500C5A65E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04AB80F6211AD23500C5A65E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04AB80F9211AD23500C5A65E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04AB80FB211AD23B00C5A65E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04AB80FE211AD23B00C5A65E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04AB8100211AD23B00C5A65E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AB8101211AD23B00C5A65E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04AB8107211AD23B00C5A65E /* DMRMediatorDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMRMediatorDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AB810B211AD23B00C5A65E /* DMRMediatorDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRMediatorDemoTests.m; sourceTree = "<group>"; };
+		04AB810D211AD23B00C5A65E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AB8112211AD23B00C5A65E /* DMRMediatorDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMRMediatorDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AB8116211AD23B00C5A65E /* DMRMediatorDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRMediatorDemoUITests.m; sourceTree = "<group>"; };
+		04AB8118211AD23B00C5A65E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AB8125211AD29E00C5A65E /* DMRMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRMediator.h; sourceTree = "<group>"; };
+		04AB8126211AD29E00C5A65E /* DMRMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRMediator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04AB80EC211AD23500C5A65E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AB8104211AD23B00C5A65E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AB810F211AD23B00C5A65E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04AB80E6211AD23500C5A65E = {
+			isa = PBXGroup;
+			children = (
+				04AB80F1211AD23500C5A65E /* DMRMediatorDemo */,
+				04AB810A211AD23B00C5A65E /* DMRMediatorDemoTests */,
+				04AB8115211AD23B00C5A65E /* DMRMediatorDemoUITests */,
+				04AB80F0211AD23500C5A65E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04AB80F0211AD23500C5A65E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04AB80EF211AD23500C5A65E /* DMRMediatorDemo.app */,
+				04AB8107211AD23B00C5A65E /* DMRMediatorDemoTests.xctest */,
+				04AB8112211AD23B00C5A65E /* DMRMediatorDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04AB80F1211AD23500C5A65E /* DMRMediatorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				04AB8124211AD26700C5A65E /* DMRMediator */,
+				04AB80F2211AD23500C5A65E /* AppDelegate.h */,
+				04AB80F3211AD23500C5A65E /* AppDelegate.m */,
+				04AB80F5211AD23500C5A65E /* ViewController.h */,
+				04AB80F6211AD23500C5A65E /* ViewController.m */,
+				04AB80F8211AD23500C5A65E /* Main.storyboard */,
+				04AB80FB211AD23B00C5A65E /* Assets.xcassets */,
+				04AB80FD211AD23B00C5A65E /* LaunchScreen.storyboard */,
+				04AB8100211AD23B00C5A65E /* Info.plist */,
+				04AB8101211AD23B00C5A65E /* main.m */,
+			);
+			path = DMRMediatorDemo;
+			sourceTree = "<group>";
+		};
+		04AB810A211AD23B00C5A65E /* DMRMediatorDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				04AB810B211AD23B00C5A65E /* DMRMediatorDemoTests.m */,
+				04AB810D211AD23B00C5A65E /* Info.plist */,
+			);
+			path = DMRMediatorDemoTests;
+			sourceTree = "<group>";
+		};
+		04AB8115211AD23B00C5A65E /* DMRMediatorDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04AB8116211AD23B00C5A65E /* DMRMediatorDemoUITests.m */,
+				04AB8118211AD23B00C5A65E /* Info.plist */,
+			);
+			path = DMRMediatorDemoUITests;
+			sourceTree = "<group>";
+		};
+		04AB8124211AD26700C5A65E /* DMRMediator */ = {
+			isa = PBXGroup;
+			children = (
+				04AB8125211AD29E00C5A65E /* DMRMediator.h */,
+				04AB8126211AD29E00C5A65E /* DMRMediator.m */,
+			);
+			name = DMRMediator;
+			path = ../../DMRMediator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04AB80EE211AD23500C5A65E /* DMRMediatorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AB811B211AD23B00C5A65E /* Build configuration list for PBXNativeTarget "DMRMediatorDemo" */;
+			buildPhases = (
+				04AB80EB211AD23500C5A65E /* Sources */,
+				04AB80EC211AD23500C5A65E /* Frameworks */,
+				04AB80ED211AD23500C5A65E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DMRMediatorDemo;
+			productName = DMRMediatorDemo;
+			productReference = 04AB80EF211AD23500C5A65E /* DMRMediatorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04AB8106211AD23B00C5A65E /* DMRMediatorDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AB811E211AD23B00C5A65E /* Build configuration list for PBXNativeTarget "DMRMediatorDemoTests" */;
+			buildPhases = (
+				04AB8103211AD23B00C5A65E /* Sources */,
+				04AB8104211AD23B00C5A65E /* Frameworks */,
+				04AB8105211AD23B00C5A65E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04AB8109211AD23B00C5A65E /* PBXTargetDependency */,
+			);
+			name = DMRMediatorDemoTests;
+			productName = DMRMediatorDemoTests;
+			productReference = 04AB8107211AD23B00C5A65E /* DMRMediatorDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04AB8111211AD23B00C5A65E /* DMRMediatorDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AB8121211AD23B00C5A65E /* Build configuration list for PBXNativeTarget "DMRMediatorDemoUITests" */;
+			buildPhases = (
+				04AB810E211AD23B00C5A65E /* Sources */,
+				04AB810F211AD23B00C5A65E /* Frameworks */,
+				04AB8110211AD23B00C5A65E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04AB8114211AD23B00C5A65E /* PBXTargetDependency */,
+			);
+			name = DMRMediatorDemoUITests;
+			productName = DMRMediatorDemoUITests;
+			productReference = 04AB8112211AD23B00C5A65E /* DMRMediatorDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04AB80E7211AD23500C5A65E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Riven;
+				TargetAttributes = {
+					04AB80EE211AD23500C5A65E = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					04AB8106211AD23B00C5A65E = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 04AB80EE211AD23500C5A65E;
+					};
+					04AB8111211AD23B00C5A65E = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 04AB80EE211AD23500C5A65E;
+					};
+				};
+			};
+			buildConfigurationList = 04AB80EA211AD23500C5A65E /* Build configuration list for PBXProject "DMRMediatorDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04AB80E6211AD23500C5A65E;
+			productRefGroup = 04AB80F0211AD23500C5A65E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04AB80EE211AD23500C5A65E /* DMRMediatorDemo */,
+				04AB8106211AD23B00C5A65E /* DMRMediatorDemoTests */,
+				04AB8111211AD23B00C5A65E /* DMRMediatorDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04AB80ED211AD23500C5A65E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AB80FF211AD23B00C5A65E /* LaunchScreen.storyboard in Resources */,
+				04AB80FC211AD23B00C5A65E /* Assets.xcassets in Resources */,
+				04AB80FA211AD23500C5A65E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AB8105211AD23B00C5A65E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AB8110211AD23B00C5A65E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04AB80EB211AD23500C5A65E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AB8127211AD29E00C5A65E /* DMRMediator.m in Sources */,
+				04AB80F7211AD23500C5A65E /* ViewController.m in Sources */,
+				04AB8102211AD23B00C5A65E /* main.m in Sources */,
+				04AB80F4211AD23500C5A65E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AB8103211AD23B00C5A65E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AB810C211AD23B00C5A65E /* DMRMediatorDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AB810E211AD23B00C5A65E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AB8117211AD23B00C5A65E /* DMRMediatorDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04AB8109211AD23B00C5A65E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04AB80EE211AD23500C5A65E /* DMRMediatorDemo */;
+			targetProxy = 04AB8108211AD23B00C5A65E /* PBXContainerItemProxy */;
+		};
+		04AB8114211AD23B00C5A65E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04AB80EE211AD23500C5A65E /* DMRMediatorDemo */;
+			targetProxy = 04AB8113211AD23B00C5A65E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04AB80F8211AD23500C5A65E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04AB80F9211AD23500C5A65E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04AB80FD211AD23B00C5A65E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04AB80FE211AD23B00C5A65E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04AB8119211AD23B00C5A65E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04AB811A211AD23B00C5A65E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04AB811C211AD23B00C5A65E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DMRMediatorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.riven.DMRMediatorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04AB811D211AD23B00C5A65E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DMRMediatorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.riven.DMRMediatorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04AB811F211AD23B00C5A65E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DMRMediatorDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.riven.DMRMediatorDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DMRMediatorDemo.app/DMRMediatorDemo";
+			};
+			name = Debug;
+		};
+		04AB8120211AD23B00C5A65E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DMRMediatorDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.riven.DMRMediatorDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DMRMediatorDemo.app/DMRMediatorDemo";
+			};
+			name = Release;
+		};
+		04AB8122211AD23B00C5A65E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DMRMediatorDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.riven.DMRMediatorDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DMRMediatorDemo;
+			};
+			name = Debug;
+		};
+		04AB8123211AD23B00C5A65E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DMRMediatorDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.riven.DMRMediatorDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DMRMediatorDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04AB80EA211AD23500C5A65E /* Build configuration list for PBXProject "DMRMediatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AB8119211AD23B00C5A65E /* Debug */,
+				04AB811A211AD23B00C5A65E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AB811B211AD23B00C5A65E /* Build configuration list for PBXNativeTarget "DMRMediatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AB811C211AD23B00C5A65E /* Debug */,
+				04AB811D211AD23B00C5A65E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AB811E211AD23B00C5A65E /* Build configuration list for PBXNativeTarget "DMRMediatorDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AB811F211AD23B00C5A65E /* Debug */,
+				04AB8120211AD23B00C5A65E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AB8121211AD23B00C5A65E /* Build configuration list for PBXNativeTarget "DMRMediatorDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AB8122211AD23B00C5A65E /* Debug */,
+				04AB8123211AD23B00C5A65E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04AB80E7211AD23500C5A65E /* Project object */;
+}
